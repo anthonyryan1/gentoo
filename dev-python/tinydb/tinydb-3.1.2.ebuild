@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python{2_7,3_{3,4,5}} )
 inherit distutils-r1
 
 DESCRIPTION="Tiny, document oriented database optimized for your happiness :)"
-HOMEPAGE="https://github.com/msiemens/tinydb http://pypi.python.org/pypi/tinydb"
+HOMEPAGE="https://github.com/msiemens/tinydb https://pypi.python.org/pypi/tinydb"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.zip"
 
 LICENSE="MIT"

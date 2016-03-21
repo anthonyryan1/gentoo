@@ -6,8 +6,8 @@ EAPI=5
 inherit autotools eutils
 
 DESCRIPTION="'Top' like statistics of X11 client's server side resource usage"
-HOMEPAGE="http://www.freedesktop.org/wiki/Software/xrestop"
-SRC_URI="http://projects.o-hand.com/sources/${PN}/${P}.tar.gz"
+HOMEPAGE="https://www.freedesktop.org/wiki/Software/xrestop"
+SRC_URI="https://downloads.yoctoproject.org/releases/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

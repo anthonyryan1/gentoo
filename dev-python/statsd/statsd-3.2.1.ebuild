@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python{2_7,3_{3,4,5}} pypy pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="A simple statsd client"
-HOMEPAGE="https://github.com/jsocol/pystatsd http://pypi.python.org/pypi/statsd"
+HOMEPAGE="https://github.com/jsocol/pystatsd https://pypi.python.org/pypi/statsd"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"

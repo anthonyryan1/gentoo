@@ -10,7 +10,7 @@ inherit gnome2 eutils python-any-r1
 
 DESCRIPTION="A Jabber/XMPP connection manager, with handling of single and multi user chats and voice calls"
 HOMEPAGE="http://telepathy.freedesktop.org"
-SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
+SRC_URI="https://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

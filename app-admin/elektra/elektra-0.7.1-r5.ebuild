@@ -7,8 +7,8 @@ EAPI=5
 inherit autotools autotools-multilib eutils multilib
 
 DESCRIPTION="Framework to store config parameters in hierarchical key-value pairs"
-HOMEPAGE="http://freedesktop.org/wiki/Software/Elektra"
-SRC_URI="ftp://ftp.markus-raab.org/${PN}/${P}.tar.gz"
+HOMEPAGE="https://freedesktop.org/wiki/Software/Elektra"
+SRC_URI="ftp://ftp.markus-raab.org/${PN}/releases/${P}.tar.gz"
 
 LICENSE="BSD"
 SLOT="0"

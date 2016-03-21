@@ -9,8 +9,8 @@ EGIT_REPO_URI="git://anongit.freedesktop.org/git/libreoffice/${PN}/"
 inherit base eutils
 
 DESCRIPTION="Library parsing the Microsoft Publisher documents"
-HOMEPAGE="http://www.freedesktop.org/wiki/Software/libmspub"
-[[ ${PV} == 9999 ]] || SRC_URI="http://dev-www.libreoffice.org/src/${P}.tar.xz"
+HOMEPAGE="https://www.freedesktop.org/wiki/Software/libmspub"
+[[ ${PV} == 9999 ]] || SRC_URI="http://dev-www.libreoffice.org/src/${PN}/${P}.tar.xz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 python3_{3,4,5} pypy )
 inherit distutils-r1
 
 DESCRIPTION="SOCKS client module"
-HOMEPAGE="https://github.com/Anorov/PySocks http://pypi.python.org/pypi/PySocks"
+HOMEPAGE="https://github.com/Anorov/PySocks https://pypi.python.org/pypi/PySocks"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"

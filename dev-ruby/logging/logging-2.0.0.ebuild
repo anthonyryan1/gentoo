@@ -12,7 +12,7 @@ RUBY_FAKEGEM_EXTRADOC="History.txt README.md"
 inherit ruby-fakegem
 
 DESCRIPTION="Flexible logging library based on the design of Java's log4j library"
-HOMEPAGE="http://rubygems.org/gems/logging"
+HOMEPAGE="https://rubygems.org/gems/logging"
 
 LICENSE="MIT"
 

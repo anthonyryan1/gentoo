@@ -9,8 +9,8 @@ inherit base eutils
 [[ ${PV} == 9999 ]] && inherit autotools git-2
 
 DESCRIPTION="Library for import of FreeHand drawings"
-HOMEPAGE="http://www.freedesktop.org/wiki/Software/libfreehand/"
-[[ ${PV} == 9999 ]] || SRC_URI="http://dev-www.libreoffice.org/src/${P}.tar.xz"
+HOMEPAGE="https://www.freedesktop.org/wiki/Software/libfreehand/"
+[[ ${PV} == 9999 ]] || SRC_URI="http://dev-www.libreoffice.org/src/${PN}/${P}.tar.xz"
 
 LICENSE="MPL-2.0"
 SLOT="0"

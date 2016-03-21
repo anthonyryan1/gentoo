@@ -11,7 +11,7 @@ inherit eutils gnome2 python-single-r1 vala virtualx
 
 DESCRIPTION="GLib bindings for the Telepathy D-Bus protocol"
 HOMEPAGE="http://telepathy.freedesktop.org"
-SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
+SRC_URI="https://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"

@@ -11,8 +11,8 @@ inherit distutils-r1
 DESCRIPTION="Pure Python toolkit for creating GUI's using web technology"
 HOMEPAGE="
 	http://flexx.readthedocs.org
-	http://github.com/zoofio/flexx
-	http://pypi.python.org/pypi/flexx"
+	https://github.com/zoofio/flexx
+	https://pypi.python.org/pypi/flexx"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.zip"
 
 LICENSE="BSD"

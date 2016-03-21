@@ -6,8 +6,8 @@ EAPI=5
 inherit eutils multilib
 
 DESCRIPTION="An library to provide useful functions commonly found on BSD systems"
-HOMEPAGE="http://libbsd.freedesktop.org/wiki/"
-SRC_URI="http://${PN}.freedesktop.org/releases/${P}.tar.xz"
+HOMEPAGE="https://libbsd.freedesktop.org/wiki/"
+SRC_URI="https://${PN}.freedesktop.org/releases/${P}.tar.xz"
 
 LICENSE="BSD BSD-2 BSD-4 ISC"
 SLOT="0"
@@ -30,7 +30,7 @@ pkg_setup() {
 src_configure() {
 	# The build system will install libbsd-ctor.a despite of USE="-static-libs"
 	# which is correct, see:
-	# http://cgit.freedesktop.org/libbsd/commit/?id=c5b959028734ca2281250c85773d9b5e1d259bc8
+	# https://cgit.freedesktop.org/libbsd/commit/?id=c5b959028734ca2281250c85773d9b5e1d259bc8
 	econf $(use_enable static-libs static)
 }
 

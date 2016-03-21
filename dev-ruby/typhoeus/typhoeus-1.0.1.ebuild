@@ -14,7 +14,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 inherit ruby-fakegem
 
 DESCRIPTION="Runs HTTP requests in parallel while cleanly encapsulating handling logic"
-HOMEPAGE="http://rubygems.org/gems/typhoeus/"
+HOMEPAGE="https://rubygems.org/gems/typhoeus/"
 
 LICENSE="Ruby"
 SLOT="0"

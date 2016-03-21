@@ -12,7 +12,7 @@ RUBY_FAKEGEM_EXTRADOC="README.rdoc"
 inherit ruby-fakegem
 
 DESCRIPTION="A library to help write robots.txt compliant web robots"
-HOMEPAGE="http://rubygems.org/gems/webrobots"
+HOMEPAGE="https://rubygems.org/gems/webrobots"
 
 LICENSE="BSD-2"
 SLOT="0"
