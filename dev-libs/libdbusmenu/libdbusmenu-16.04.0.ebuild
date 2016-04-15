@@ -38,6 +38,8 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig[${MULTILIB_USEDEP}]
 	vala? ( $(vala_depend) )"
 
+REQUIRED_USE="vala? ( introspection )"
+
 src_prepare() {
 	if use vala; then
 		vala_src_prepare
