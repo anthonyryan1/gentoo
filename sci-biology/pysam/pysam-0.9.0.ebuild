@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 python3_{4,5} )
 inherit distutils-r1 python-r1
 
 DESCRIPTION="Python interface for the SAM/BAM sequence alignment and mapping format"
-HOMEPAGE="https://github.com/pysam-developers/pysam http://pypi.python.org/pypi/pysam"
+HOMEPAGE="https://github.com/pysam-developers/pysam https://pypi.python.org/pypi/pysam"
 SRC_URI="https://github.com/pysam-developers/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"

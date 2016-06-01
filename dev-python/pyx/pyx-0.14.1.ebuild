@@ -9,7 +9,7 @@ inherit distutils-r1
 MY_PN=PyX
 MY_P="${P/pyx/PyX}"
 DESCRIPTION="Python package for the generation of encapsulated PostScript figures"
-HOMEPAGE="http://pyx.sourceforge.net/ http://pypi.python.org/pypi/PyX/"
+HOMEPAGE="http://pyx.sourceforge.net/ https://pypi.python.org/pypi/PyX/"
 SRC_URI="mirror://pypi/${MY_PN:0:1}/${MY_PN}/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"

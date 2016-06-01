@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 python3_{3,4,5} pypy pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Easily test your HTTP library against a local copy of httpbin"
-HOMEPAGE="https://github.com/kevin1024/pytest-httpbin http://pypi.python.org/pypi/pytest-httpbin"
+HOMEPAGE="https://github.com/kevin1024/pytest-httpbin https://pypi.python.org/pypi/pytest-httpbin"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"

@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python2_7 python3_{3,4,5} pypy pypy3 )
 inherit distutils-r1
 
 DESCRIPTION="Character encoding aliases for legacy web content"
-HOMEPAGE="https://github.com/SimonSapin/python-webencodings http://pypi.python.org/pypi/webencodings"
+HOMEPAGE="https://github.com/SimonSapin/python-webencodings https://pypi.python.org/pypi/webencodings"
 SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="BSD"
